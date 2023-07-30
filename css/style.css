@@ -4,8 +4,8 @@
    | Fonts
    |============================
  */
-  --primary-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway", sans-serif;
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
 
   /**
     |============================
@@ -27,6 +27,7 @@
 
 body {
   background-color: #fff;
+  
 }
 
 /**
@@ -34,8 +35,14 @@ body {
   | HEDER STYLE
   |============================
 */
-.logo-link {
-  font-family: "Raleway",sans-serif;
+.list{
+  list-style: none;
+}
+.link{
+  text-decoration: none;
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17em;
@@ -48,41 +55,40 @@ body {
   color: var(--navyblue-color);
 }
 
-.nav-list {
-  font-style: normal;
+.nav .list {
   list-style: none;
   cursor: pointer;
   color: var(--navyblue-color);
+  list-style: none;
 }
-.list-items {
-}
-.link-items {
+
+.nav-items {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.5em;
   letter-spacing: 0.02em;
   color: var(--navyblue-color);
   text-decoration: none;
 }
-.link-items:hover,
-.link-items:focus {
+.nav-items:hover,
+.nav-items:focus {
   color: var(--ocean-color);
 }
-.header-address {
-  font-style: normal;
-}
-.addres-list {
-}
-.addres-list-item {
+
+.addres .list {
   list-style: none;
 }
-.addres-link-item {
+.addres-item {
+  font-style: normal;
+  list-style: none;
+}
+.addres-item {
   text-decoration: none;
-  line-height: 1.5;
+  line-height: 1.5em;
   letter-spacing: 0.02em;
   color: var(--slate-body-color);
 }
-.addres-link-item:hover,
+.addres-item:hover,
 .addres-link-item:focus {
   color: var(--ocean-color);
 }
