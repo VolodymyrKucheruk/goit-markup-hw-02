@@ -126,7 +126,7 @@ body {
 }
 .section-hero-btn:hover,
 .section-hero-btn:focus {
-  color: var(--ocean-color);
+  background-color: var(--ocean-color);
 }
 
 .section-text .list {
