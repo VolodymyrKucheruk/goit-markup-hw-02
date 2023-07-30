@@ -4,8 +4,8 @@
    | Fonts
    |============================
  */
-  --primary-font: 'Roboto', sans-serif;
-  --secondary-font: 'Raleway', sans-serif;
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
 
   /**
     |============================
@@ -35,11 +35,11 @@ body {
   |============================
 */
 .logo-link {
-  font-family: 'Raleway', 'sans-serif';
+  font-family: "Raleway",sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17em;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris-color);
   text-decoration: none;
