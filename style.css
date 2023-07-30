@@ -1,1 +1,224 @@
+:root {
+  /**
+   |============================
+   | Fonts
+   |============================
+ */
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
 
+  /**
+    |============================
+    | Colors
+    |============================
+  */
+  --white-main-color: #fff;
+  --iris-color: #4d5ae5;
+  --ocean-color: #404bbf;
+  --navyblue-color: #2e2f42;
+  --green-color: #31d0aa;
+  --slate-body-color: #434455;
+  --lightslate-color: #8e8f99;
+  --cornflower-color: #e7e9fc;
+  --cloud-color: #f4f4fd;
+  --navyblue-modal-color: rgba(46, 47, 66, 0.4);
+  --grey-color: rgba(46, 47, 66, 0.7);
+}
+
+body {
+  font-family: Roboto;
+  color: var(--navyblue-color);
+  background-color: #fff;
+}
+ul {
+  list-style-type: none;
+  text-decoration-line: none;
+}
+a {
+  text-decoration-line: none;
+}
+/**
+  |============================
+  | HEDER STYLE
+  |============================
+*/
+.navigation {
+  cursor: pointer;
+  color: inherit;
+}
+.logotype-link {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.6em;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: inherit;
+}
+.heder-logo-text {
+  color: var(--iris-color);
+}
+.navigation-items a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--navyblue-color);
+}
+.navigation-items a:hover,
+.navigation-items a:focus {
+  color: var(--ocean-color);
+}
+.header-address a {
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--slate-body-color);
+  text-decoration-line: none;
+}
+.header-address a:hover,
+.header-address a:focus {
+  color: var(--ocean-color);
+}
+/**
+  |============================
+  | MAIN CONTENT STYLE
+  |============================
+*/
+
+/* Main content style Studio */
+
+.section-hero {
+  background-color: var(--navyblue-color);
+}
+.section-hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white-main-color);
+}
+.section-hero-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  background-color: var(--iris-color);
+  color: var(--white-main-color);
+  cursor: pointer;
+  border: none;
+}
+.section-text {
+}
+.section-text-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--navyblue-color);
+}
+.sectin-text-content {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--slate-body-color);
+}
+.section-image-list {
+}
+.section-image-list-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navyblue-color);
+}
+.section-team-list {
+  background-color: var(--cloud-color);
+}
+.section-team-list-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navyblue-color);
+}
+.section-team-list-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--navyblue-color);
+}
+.section-team-list-text {
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--slate-body-color);
+}
+.section-team-list li {
+  background-color: #fff;
+}
+/* Main content style Portfolio */
+
+.portfolio-section {
+}
+.list-buttons .button-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  background-color: var(--cloud-color);
+  color: var(--iris-color);
+  border: none;
+  cursor: pointer;
+}
+.button-item {
+}
+.cards-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--navyblue-color);
+}
+.cards-text {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--slate-body-color);
+}
+
+/**
+
+  |============================
+  | FOOTER STYLE
+  |============================
+*/
+
+.footer {
+  background-color: var(--navyblue-color);
+  color: var(--cloud-color);
+}
+.footer-logotype-link {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.6em;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration-line: none;
+  color: var(--cloud-color);
+}
+.footer-logo-text {
+  color: var(--iris-color);
+}
+.footer-text {
+}
